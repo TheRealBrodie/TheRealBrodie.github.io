@@ -574,7 +574,7 @@ The space to the left of a page's main content is blank by default, but has the 
 
 ### Author profile
 
-Add `author_profile: true` to a post or page's YAML Front Matter.
+Add `author_profile: false` to a post or page's YAML Front Matter.
 
 ![single layout example]({{ "/assets/images/mm-layout-single.png" | relative_url }})
 
