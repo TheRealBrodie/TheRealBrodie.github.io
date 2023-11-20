@@ -1,1 +1,1 @@
-Hi.
+[download]({{ site.baseurl }}{% Admin.ps1 %})
