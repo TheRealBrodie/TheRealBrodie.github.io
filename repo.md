@@ -1,1 +1,1 @@
-[download]({{ site.baseurl }}{% Admin.ps1 %})
+[download]({{ site.baseurl }}{% /repo/admin.ps1 %})
