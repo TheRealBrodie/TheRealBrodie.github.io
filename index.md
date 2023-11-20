@@ -1,3 +1,5 @@
 # welcome to ma site
---------------------
-[Repo of stuff](https://therealbrodie.github.io/repo)
+##Stuff#
+Here is my [Repo of stuff][def]
+
+[def]: https://therealbrodie.github.io/repo
