@@ -1,7 +1,2 @@
 # welcome to ma site
-
-
-# Stuff
-Here is my [Repo of stuff][def]
-
-[def]: https://therealbrodie.github.io/repo
+this is the worlds most boring site 𝒻ℴ𝓇 𝓃ℴ𝓌
