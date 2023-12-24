@@ -1,4 +1,4 @@
-title: Brodie's Site
+title: Brodie's site
 author:
   name: Brodie
   email: your-email@domain.com
@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
- Some text goes here.
+  Some text goes here.
 
 # Build settings
 
@@ -38,7 +38,7 @@ minima:
   # Available skins are:
   # classic	           Default, light color scheme.
   # dark	             Dark variant of the classic skin.
-   auto	             Adaptive skin based on the default classic and dark skins.
+  # auto	             Adaptive skin based on the default classic and dark skins.
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
