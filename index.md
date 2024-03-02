@@ -3,13 +3,13 @@ layout: default
 ---
 
 
-[Roblox Games][Roblox Games]
-[Other Stuff][idk-what-im-gona-put-here]
+[Roblox Games](roblox-games.html)
+[Other Stuff](idk-what-im-gona-put-here.html)
 
 
 
 
-![Brodie][Brodie]
+![Brodie](https://therealbrodie.github.io/assets/images/Brodie.png)
 
 
 
@@ -19,7 +19,4 @@ layout: default
 
 
 
-#Links 
-[Roblox Games]: .roblox-games.html
-[idk-what-im-gona-put-here]: idk-what-im-gona-put-here.html
-[Brodie]: https://therealbrodie.github.io/assets/images/Brodie.png
+
