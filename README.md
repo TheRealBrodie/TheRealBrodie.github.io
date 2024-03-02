@@ -1,2 +1,3 @@
-[Some text goes here]
-(https://TheRealBrodie.github.io)
+[Some text goes here][def]
+
+[def]: https://TheRealBrodie.github.io
