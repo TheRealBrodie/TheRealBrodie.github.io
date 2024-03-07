@@ -4,6 +4,7 @@ layout: default
 
 
 [Wallpapers](wallpapers.html)
+[Do not click :)](https://therealbrodie.github.io/Funni)
 
 
 
