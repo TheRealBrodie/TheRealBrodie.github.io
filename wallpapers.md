@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+[Back](index.html)
+
 ![Snowy Mountian](https://therealbrodie.github.io/Wallpapers
 /Wallpapers/Snowy-Mountian.jpg)
 ![Snowy Fox](https://therealbrodie.github.io/Wallpapers
@@ -29,5 +31,21 @@ layout: default
 /Wallpapers/Greenery.jpg)
 ![Foresty Mountain](https://therealbrodie.github.io/Wallpapers
 /Wallpapers/Foresty-Mountain.jpg)
-![A Mountian](https://therealbrodie.github.io/Wallpapers
-/Wallpapers/Snowy-Mountian.jpg)
+![Snowy Trees](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Snowy-Trees.jpg)
+![Spike Mountian](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Spike-Mountian.jpg)
+![Werid Earth](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Werid-Earth.jpg)
+![Foresty Mountain](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Foresty-Mountain.jpg)
+![Field](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Field.png)
+![Cloudy Mountians](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Cloudy-Mountians.png)
+![Cloudy Lake](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Cloudy-Lake.png)
+![Clean Sunset](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Clean-Sunset.jpg)
+
+[Back](index.html)
