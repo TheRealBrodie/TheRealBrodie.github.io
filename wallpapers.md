@@ -25,3 +25,9 @@ layout: default
 /Wallpapers/idk2.JPG)
 ![idk](https://therealbrodie.github.io/Wallpapers
 /Wallpapers/idk.JPG)
+![Greenery](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Greenery.jpg)
+![Foresty Mountain](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Foresty-Mountain.jpg)
+![A Mountian](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/Snowy-Mountian.jpg)
