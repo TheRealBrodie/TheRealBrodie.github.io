@@ -1,2 +1,5 @@
-hi
-this is empty for now but there will be wallpapers
+---
+layout: default
+---
+![A Mountian](https://therealbrodie.github.io/Wallpapers
+/Wallpapers/A-Mountian.jpg)
