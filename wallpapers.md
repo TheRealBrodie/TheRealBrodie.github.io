@@ -29,8 +29,6 @@ layout: default
 /Wallpapers/idk.JPG)
 ![Greenery](https://therealbrodie.github.io/Wallpapers
 /Wallpapers/Greenery.jpg)
-![Foresty Mountain](https://therealbrodie.github.io/Wallpapers
-/Wallpapers/Foresty-Mountain.jpg)
 ![Snowy Trees](https://therealbrodie.github.io/Wallpapers
 /Wallpapers/Snowy-Trees.jpg)
 ![Spike Mountian](https://therealbrodie.github.io/Wallpapers
