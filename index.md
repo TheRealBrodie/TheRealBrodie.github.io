@@ -5,6 +5,7 @@ layout: default
 
 [Wallpapers](wallpapers.html)
 [JS Scripts](js-scripts.html)
+[Stuff for school](proxy.html)
 
 
 
