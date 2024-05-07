@@ -1,1 +1,1 @@
-https://lavender-cesya-23.tiiny.site/
+https://brodie-privoce-vo-y3ezow.dome.tools/#/register?magic_token=d72f3d93ba9ebe168936df90ed299a54c8b01859f7d5d8b02af5f0702ba503ab0000000000000600000000000000323337373335f50e3c66000000000000
