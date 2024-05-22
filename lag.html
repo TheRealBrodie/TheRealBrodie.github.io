@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lag Inducing Script</title>
+</head>
+<body>
+    <h1>Warning if youre on a potato pc I wish you luck</h1>
+    <button onclick="causeLag()">ACTIVATE LAG</button>
+    <script>
+        function causeLag() {
+            let sum = 0;
+            for (let i = 0; i < 1e9; i++) { // One billion iterations
+                sum += Math.random();
+            }
+            console.log(sum);
+        }
+    </script>
+</body>
+</html>
