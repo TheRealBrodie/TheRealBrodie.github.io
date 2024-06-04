@@ -18,5 +18,18 @@
             console.log(sum);
         }
     </script>
+    <button onclick="openRickRoll()">ACTIVATE SPAMER</button> MAKE SURE TO ALLOW POPUPS
+    <script>
+    let count = 0;
+
+function openRickRoll() {
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+    count++;
+    document.getElementById('counter').innerText = 'Rick Roll count: ' + count;
+}
+
+setInterval(openRickRoll, 3000); // Open a new tab every 3 seconds
+    </script>
+     <p id="counter">spamer count: 0</p>
 </body>
 </html>
