@@ -6,9 +6,13 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -49,6 +53,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 70px; /* Adjust for the fixed header */
 }
 
 .hero-content {
@@ -69,16 +74,21 @@ nav {
 }
 
 .cta-button {
-    background-color: #ff6f61;
+    background-color: rgba(255, 111, 97, 0.8);
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 111, 97, 1);
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     text-align: center;
     padding: 1em 0;
