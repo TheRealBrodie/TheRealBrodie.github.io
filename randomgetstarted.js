@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Array of random URLs
     const randomUrls = [
         'https://TheRealBrodie.github.io/scripts.html',
-        'https://random.org' 
+        'https://TheRealBrodie.github.io/wallpapers.html' 
     ];
 
     ctaButton.addEventListener('click', (event) => {
