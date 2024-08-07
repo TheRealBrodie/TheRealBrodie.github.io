@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brodie's Site | Scripts</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="randombg.js" defer></script>
+    <title>Code Snippet</title>
+    <link rel="stylesheet" href="scriptstyle.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="Assets/Brodie.png" alt="insert brodie here" />
+                <img src="Assets/Brodie.png" alt="Logo">
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -21,25 +20,20 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Useful Scripts:</h1>
-            <section class="code-section">
-                <h2>Auto Clicker by asteriskman7</h2>
-                <pre>
-        <code id="code-block">
-            let _button=4;
-            let _ID;
-            document.body.addEventListener('mousedown', (e)=>{if(e.button===_button){_ID=_ID||setInterval(()=>e.target.click(),1)}});
-            document.body.addEventListener('mouseup', (e)=>{if(e.button===_button){clearInterval(_ID);_ID=0}});
+    <main>
+        <section class="code-section">
+            <h2>Copy and Paste This Code</h2>
+            <pre id="code-block">
+<code>
+I will add stuff soon and i will also fix the blur
 </code>
-        </pre>
-        <button id="copy-button">Copy to Clipboard</button>
-    </section>
-        </div>
-    </section>
+            </pre>
+            <button id="copy-button">Copy to Clipboard</button>
+        </section>
+    </main>
     <footer>
-        <p>no copy right, Brodie's Site 2024. All rights reserved.</p>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
