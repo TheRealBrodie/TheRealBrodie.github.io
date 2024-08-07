@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5em 1em; /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Apply background blur */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Center nav within header */
+    padding: 0 1em; /* Adjust padding for nav */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.logo img {
+    max-height: 40px; /* Adjust logo size */
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2em; /* Adjust margin for spacing between links */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em; /* Adjust padding for main section */
+    box-sizing: border-box;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 2em;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Apply background blur */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 1em;
+    color: #fff;
+}
+
+.cta-button {
+    background-color: rgba(255, 111, 97, 0.8);
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 111, 97, 1);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff;
+    padding: 0.5em 1em; /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.code-section {
+    background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    padding: 1em; /* Adjust padding for code section */
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5em; /* Adjust padding inside pre block */
+    overflow-x: auto;
+    margin: 0; /* Remove margin */
+}
+
+code {
+    display: block;
+    white-space: pre-wrap; /* Preserve whitespace */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 1em 0 0 0; /* Adjust margin */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

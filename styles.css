@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5em 1em; /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Apply background blur */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Center nav within header */
+    padding: 0 1em; /* Adjust padding for nav */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.logo {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.logo img {
+    max-height: 40px; /* Adjust the size as needed */
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2em; /* Adjust margin for spacing between links */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 2em;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Apply background blur */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 1em;
+    color: #fff;
+}
+
+.cta-button {
+    background-color: rgba(255, 111, 97, 0.8);
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 111, 97, 1);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Match header background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    backdrop-filter: blur(10px); /* Apply background blur */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
