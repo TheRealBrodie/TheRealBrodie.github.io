@@ -15,3 +15,4 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = randomUrl;
     });
 });
+// brodie was here
