@@ -2,10 +2,10 @@
 :root {
 
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font_family: 'Inter', sans-serif;
+  font-family: "Lexend", sans-serif;
 
   /* You can change the font size here, is proportional to all texts. */
-  --font_size: 16px;
+  --font_size: 40px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
@@ -144,28 +144,38 @@ body {
   color: var(--menu_text_color);
 }
 
-
 .header_nav_menu_list {
   padding-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
 }
 
+/* === Glass Effect Menu Items === */
 .header_nav_menu_item {
   color: var(--menu_text_color);
-  background-color: var(--menu_background_color);
   text-align: center;
   list-style-type: none;
   cursor: pointer;
-  padding: 0.5em;
-  border-radius: 0.3em;
-  cursor: pointer;
-  transition: 0.10s ease;
+  padding: 0.6em 1.5em;
+  border-radius: 2em;
   font-size: 1.1em;
+  transition: 0.3s ease;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .header_nav_menu_item + .header_nav_menu_item {
   margin-left: 0.4em;
+}
+
+.header_nav_menu_item:hover {
+  color: var(--menu_active_text_color);
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.08);
 }
 
 /* Menu Container Codes */
@@ -183,28 +193,43 @@ main {
   text-decoration: none;
 }
 
+/* === Glass Effect for Text Item === */
 .main_text_item {
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--button_text_color);
-  background-color: var(--button_background_color);
   width: 41em;
   margin-top: 1em;
   padding: 0.8em;
-  border-radius: 0.3em;
+  border-radius: 0.8em;
   min-height: 3.7em;
   text-align: center;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
 }
+
+/* === Glass Effect Buttons === */
 
 .main_button_item {
   color: var(--button_text_color);
-  background-color: var(--button_background_color);
+  background: rgba(255, 255, 255, 0.1);
   width: 41em;
   border-radius: 1em;
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
 }
 
 .main_small_button_list {
@@ -221,21 +246,28 @@ main {
   margin-left: 10px;
 }
 
-.main_small_button_item:hover,
-.main_button_item:hover {
-  color: var(--button_text_hover_color);
-  transform: scale(1.02);
-  transition: 0.10s ease;
-}
-
 .main_small_button_item {
   color: var(--button_text_color);
-  background-color: var(--button_background_color);
+  background: rgba(255, 255, 255, 0.1);
   width: calc(41em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.main_small_button_item:hover,
+.main_button_item:hover,
+.main_text_item:hover {
+  color: var(--button_text_hover_color);
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Footer Codes */
